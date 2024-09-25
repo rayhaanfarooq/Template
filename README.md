@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a SaaS template. As someone who loves building SaaS, I found it tiring and boring having to setup up everything froms scratch. From adding authentication, to installing the libraries, to setting up my landing page. It was super time consuming. The alternative templates all cost money. So I decided to build my own template so I can fork whenever I want to and actually focus on building my SaaS rather than the landing page.
 
 ## Getting Started
 
