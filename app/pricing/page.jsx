@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle } from "lucide-react";
+import { Header } from "@/components/personal/header"
 
 function Pricing() {
 
     return (
 
         <section id="pricing" className="w-full py-24 lg:py-32 bg-gray-100">
+          <Header />
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl text-center mb-16">
             Pricing Plans

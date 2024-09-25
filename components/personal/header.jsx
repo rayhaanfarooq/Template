@@ -14,11 +14,28 @@ export const Header = () => {
 
           
           <nav className="flex gap-8">
-            {["Home", "Features", "Pricing", "About", "Contact" , "Sign In", "Sign Out", "Sign Up"].map((item) => (
-              <Link key={item} className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/${item.toLowerCase()}`}>
-                {item}
+
+          <Link className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/`}>
+                Home
               </Link>
-            ))}
+
+              <Link className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/pricing`}>
+                Pricing
+              </Link>
+
+              <Link className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/dashboard`}>
+                Dashboard
+              </Link>
+
+
+              <Link className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/auth/sign-in`}>
+                Sign In
+              </Link>
+
+              <Link className="text-sm font-medium hover:text-gray-600 transition-colors" href={`/auth/sign-up`}>
+                Sign Up
+              </Link>
+          
           </nav>
         </div>
       </header>
